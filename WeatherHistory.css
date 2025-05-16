@@ -1,0 +1,55 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Navigate ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+     color: whitesmoke
+    }
+  
+  .Navigate ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .Navigate li:hover{
+    background-color: red;
+    color: whitesmoke;
+  }
+
+   .Navigate #Enable {
+    position: relative;
+    bottom: 30px;
+    left: 1000px;
+  }
+
+  .Navigate #Disable {
+    position: relative;
+    bottom: 30px;
+    left: 1070px;
+  }
+
+
+.Options {
+  width: 250px;
+  height:70px;
+  background-color:aqua;
+}
+
+.display {
+  background-color:whitesmoke;
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 50px;
+}

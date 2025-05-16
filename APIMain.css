@@ -1,0 +1,84 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Navigate ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+     color: whitesmoke
+    }
+  
+  .Navigate ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .Navigate li:hover{
+    background-color: red;
+    color: whitesmoke;
+  }
+
+  .Navigate #Enable {
+    position: relative;
+    bottom: 30px;
+    left: 1000px;
+  }
+
+  .Navigate #Disable {
+    position: relative;
+    bottom: 30px;
+    left: 1070px;
+  }
+
+  .Description {
+    text-align: left;
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 360px;
+    height: 200px;
+
+    /*Transition*/
+    position: relative;
+  }
+
+  .WeatherToday {
+    text-align: left;
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 350px;
+    height: 160px;
+
+    /*Transition*/
+    position: absolute;
+    left: 890px;
+    top: 120px;
+  }
+
+  /*Swiper Container*/
+
+  /*Container*/
+  .swiper {
+    height: 300px;
+    width: 400px;
+    position:relative;
+    left: -420px;
+  }
+
+  /*Slide Design*/
+  .swiper-slide {
+      background: #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 60px;
+  }
+   
