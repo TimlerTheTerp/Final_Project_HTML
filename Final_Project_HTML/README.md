@@ -1,26 +1,51 @@
-# Final_Project_HTML
-Section I:
-
+🌦️ Final Project: Weather/Climate Simulation App
+Section I: Overview
 Title: Weather/Climate Simulation App
+Description:
+This application allows users to check weather conditions in various cities around the world. It can be useful for travelers planning a trip, or for anyone wanting to know the weather in their area or elsewhere.
 
-Description: To find out the weather conditions in certain cities, that people might need to use if they are traveling, or if they want to know what the weather conditions are in their area, or somewhere else
+Target Browser:
+iOS-focused browsers, as this application is designed for users on the go who want quick access to weather information while traveling.
 
-Target Browser: The target browser would be iOS-focused, because since people are traveling, they would like to know the weather of a place.
+📘 Note:
+See Section II: Developer Manual for deployment and usage instructions.
 
-“See Section II, Developer Manual to understand how to operate the application”
+Section II: Developer Manual
+Before using this application, please ensure you have a Vercel account and access to the project's GitHub repository.
 
-Section II, Developer Manual: 
+🔧 Setup Instructions
+Install Vercel
+Create an account on Vercel and install their CLI tools if needed.
 
-As you are reading this developer manual, here are some stuff to keep in mind when using this. In order to do this, please make a versel account and link the GitHub to your application. You should be able to deploy all the materials
+Connect GitHub Repository
+Link your GitHub repository containing this project to your Vercel account.
 
-1# Install Vercel, as you are able to run the servers there
+Run the Application Locally
 
-2# Connect this GitHub to the Vercel Server that you created and link the GitHub there
+Ensure you have Node.js installed.
 
-3# To Run The Application, the server is hosted at 3000, so you would have to go to the terminal and do npm start. 
+Navigate to your project directory.
 
-4# As you can see the Vercel is acting up as it should and you should be able to navigate through the application. Running test would require checking all the functionalities that are working.
+Run the application by executing:
 
-#Functions
+bash
+Copy
+Edit
+npm start
+The local development server will run on port 3000.
 
-5# For the API that I'm using for this application. I'm using an api called WeatherStack, which is about the weather and climate around the world. The project is supposed to  "get" the html links in the projec
+Testing and Navigation
+
+Once deployed or running locally, navigate through the application using the built-in menu.
+
+Test functionality like weather search, map views, and voice commands (if integrated via Annyang).
+
+🌐 API Integration
+Title: Functions
+This application uses the WeatherStack API.
+
+The API allows real-time access to weather and climate data globally.
+
+All API calls are implemented using the GET method.
+
+
