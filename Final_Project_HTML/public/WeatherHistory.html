@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Weather History</title>
+        <link rel="stylesheet" href="WeatherHistory.css">
+    </head>
+
+
+
+    <body>
+        <h1>Weather History</h1>
+
+
+        <nav class ="Navigate">
+            <ul>
+                <li><a href="API_Main.html">Home</a></li>
+                <li><a href="WeatherHistory.html">Weather History</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Database.html">Database</a></li>
+            </ul>
+                <button onclick="Annyang()" id="Enable">Toggle On</button>
+                <button onclick="NoAnnyang()" id="Disable">Toggle Off</button>
+        </nav>
+
+        
+    <h2>Weather Situations</h2>
+
+
+
+
+
+    <div class = "Options">
+        <div>
+            <label for = "Select">Select An Option:</label>
+            <select id = "Select" onChange = "ChangeOption()">
+                <option value="default">---Select---</option>
+                <option value="WeatherSearch">Weather Search</option>
+                <option value="Advisory">Advisory</option>
+                <option value="Vibes">Vibes</option>
+            </select>
+        </div>
+        <!--Option 1: choose basic weather features-->
+        <div id = "WeatherSearch" class = Weather>
+            <label for="city1">City:</label>
+            <input type="text" id="city1" name="city">
+            <br>
+            <button onclick = "GetWeatherType()">Submit</button>
+        </div>
+
+        <!--Option 2: Annalyzing Weather Patterns-->
+        <div id = "Advisory" class = Weather>
+            <label for="city2">City:</label>
+            <input type="text" id="city2" name="city">
+            <br>
+            <button onclick = "ClothingAdvisory()">Submit</button>
+        </div>
+
+        <!--Option 3: Comparing Two Cities-->
+        <div id = "Vibes" class = Weather>
+            <label for="city3">City:</label>
+            <input type="text" id="city3" name="city">
+            <br>
+            <button onclick = "WeatherVibes()">Submit</button>
+        </div>
+    </div>
+
+        <div id="Display">
+            <!--Displaying the Results about each cities climate-->
+        </div>
+
+
+         <!--API-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+         <script src="WeatherHistory.js" defer></script>
+    </body>
+</html>

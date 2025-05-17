@@ -1,0 +1,52 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.Navigate ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+     color: whitesmoke
+    }
+  
+  .Navigate ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .Navigate li:hover{
+    background-color: red;
+    color: whitesmoke;
+  }
+
+   .Navigate #Enable {
+    position: relative;
+    bottom: 30px;
+    left: 1000px;
+  }
+
+  .Navigate #Disable {
+    position: relative;
+    bottom: 30px;
+    left: 1070px;
+  }
+
+  .AboutSlip {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+
+    left: 475px;
+    background-color: azure;
+  }

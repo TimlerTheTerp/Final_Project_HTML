@@ -1,0 +1,67 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.Navigate ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+   color: whitesmoke
+  }
+
+.Navigate ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.Navigate li:hover{
+  background-color: red;
+  color: whitesmoke;
+}
+
+ .Navigate #Enable {
+  position: relative;
+  bottom: 30px;
+  left: 1000px;
+}
+
+.Navigate #Disable {
+  position: relative;
+  bottom: 30px;
+  left: 1070px;
+}
+
+#weatherState {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+#weatherState th, #weatherState td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+#weatherState th {
+  background-color: #333;
+  color: white;
+}
+
+#weatherState tr:nth-child(even) {
+  background-color: burlywood;
+}
+
+#weatherState tr:hover {
+  background-color: burlywood;
+}
