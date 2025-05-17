@@ -43,7 +43,7 @@ async function loadWeatherData() {
         let table = document.createElement('table');
         table.setAttribute('id', 'weatherState');
 
-        // Create table header row
+      
         let headerRow = document.createElement('tr');
 
         const headers = ['City', 'Humidity', 'Temperature', 'Weather Description'];
@@ -55,7 +55,7 @@ async function loadWeatherData() {
 
         table.appendChild(headerRow);
 
-        // Add each weather entry row
+        
         resultJson.forEach(weather => {
             let row = document.createElement('tr');
 
