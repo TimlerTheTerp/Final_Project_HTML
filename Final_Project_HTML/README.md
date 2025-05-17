@@ -11,4 +11,16 @@ Target Browser: The target browser would be iOS-focused, because since people ar
 
 Section II, Developer Manual: 
 
-As you are reading this developer manual, here are some stuff to keep in mind when using this. In order to do this, please make a versel account and link the github to your application. You should be able to deploy all the
+As you are reading this developer manual, here are some stuff to keep in mind when using this. In order to do this, please make a versel account and link the GitHub to your application. You should be able to deploy all the materials
+
+1# Install Vercel, as you are able to run the servers there
+
+2# Connect this GitHub to the Vercel Server that you created and link the GitHub there
+
+3# To Run The Application, the server is hosted at 3000, so you would have to go to the terminal and do npm start. 
+
+4# As you can see the Vercel is acting up as it should and you should be able to navigate through the application. Running test would require checking all the functionalities that are working.
+
+#Functions
+
+5# For the API that I'm using for this application. I'm using an api called WeatherStack, which is about the weather and climate around the world. The project is supposed to  "get" the html links in the projec
