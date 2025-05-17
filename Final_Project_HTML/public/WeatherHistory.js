@@ -70,7 +70,7 @@ async function GetWeatherType() {
       <p>Weather Description: ${data.current.weather_descriptions}</p>
       <p>Humidity: ${data.current.humidity}</p>`;
 
-  // Submit to backend
+  // BackEnd
   await fetch('/weather', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -126,7 +126,7 @@ async function ClothingAdvisory() {
           <p>${advice}</p>
           <p>${conditionadvice}</p>`;
 
-      // Submit to backend
+      // BackEnd
       await fetch('/weather', {
           method: 'POST',
           headers: {
@@ -174,7 +174,7 @@ async function WeatherVibes() {
           <p>The wind is ${wind} mph</p>
           <p>${advice}</p>`;
 
-      // Submit to backend
+      // BackEnd
       await fetch('/weather', {
           method: 'POST',
           headers: {
