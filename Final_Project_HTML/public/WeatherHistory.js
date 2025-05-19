@@ -156,7 +156,7 @@ async function WeatherVibes() {
       let condition = data.current.weather_descriptions[0];
       let advice = "";
 
-      // Wind-based advice
+      
       if (wind > 20) {
           advice = "It's very windy, I advise you not to go outside at all.";
       } else if (wind > 10) {
